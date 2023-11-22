@@ -32,6 +32,7 @@ export default RandomMenu;
 
 const Number = styled.p`
   font-size: 2rem;
+  ${({ theme }) => theme.fonts.kor};
 
   animation: flicker 1s infinite;
 
