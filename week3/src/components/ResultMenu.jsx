@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import DATA from `${process.env.PUBLIC_URL}/assets`;
+import DATA from "/assets";
 import Title from "./Layout/Title";
 import Buttons from "./Layout/Buttons";
 
